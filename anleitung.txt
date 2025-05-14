@@ -1,0 +1,31 @@
+Image Checker 2.3.0 für Zen Cart 1.5.7 deutsch
+
+Dieses Tool ist nützlich, um zu prüfen ob es in der Zen Cart Installation fehlende Bilddateien oder Bilddateien mit falschen Dateitypen bei Kategorien und Artikel gibt.
+
+INSTALLATION
+
+Nur für Zen Cart deutsch 1.5.7i oder 1.5.7j geeignet!
+Machen Sie eine Sicherung Ihrer Datenbank und Ihrer Shopdateien bevor Sie dieses Modul installieren
+
+1)
+Laden Sie den Inhalt des Ordners NEUE DATEIEN in der vorgegebenen Struktur in Ihr Shopverzeichnis hoch.
+Dabei werden keinerlei bestehenden Dateien überschrieben
+
+2)
+Dieses Modul nutzt den Pluginmanager. Gehen Sie also nun in Ihrer Zen Cart Administration auf Module > Pluginmanager
+Markieren Sie Image Checker und clicken Sie auf Installieren und bestätigen Sie nochmal.
+
+3)
+Nun ist unter Tools der neue Menüpunkt Bilder Überprüfung vorhanden.
+Hier können Sie nun Ihren Shop auf Bildprobleme überprüfen.
+Die Anzahl der Suchergebnisse pro Seite wird gesteuert über Konfiguration > Maximale Werte > Suchresultate pro Seite
+
+DEINSTALLATION
+
+1)
+Module > Pluginmanager > Image Checker deinstallieren
+Um auch das Modul aus zc_plugins zu entfernen danach bei Unerwünschte Plugin-Versionsverzeichnisse entfernen auf Aufräumen
+
+2)
+Die uninstall.sql im Ordner UNINSTALL mit einem Texteditor öffnen und den Inhalt kopieren
+Einfügen ins Eingabefeld unter Tools > SQL Patches installieren und absenden
